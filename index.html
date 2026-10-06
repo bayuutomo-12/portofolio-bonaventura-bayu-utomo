@@ -237,7 +237,14 @@
   .contact-value a { text-decoration: none; }
   .contact-value a:hover { color: var(--accent); }
   .foot-note { font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; opacity: 0.5; }
-</style>
+.project-media { margin-top: 20px; }
+.project-media img, .project-media video {
+  width: 100%;
+  border-radius: var(--radius);
+  display: block;
+  margin-top: 12px;
+  border: 1px solid var(--line);
+}</style>
 </head>
 <body>
 
@@ -353,7 +360,14 @@
   </section>
 
   <section id="proyek">
-    <div class="sec-head"><span class="sec-num">03</span><h2>Proyek Unggulan</h2><span class="rule"></span></div>
+    <div class="sec-head"><span class="sec-num">03</span><h2><div class="project-card" style="margin-top: 24px;">
+  <span class="project-tag">KATEGORI PROYEK</span>
+  <h3>Judul Proyek Kamu</h3>
+  <p>Deskripsi singkat proyek ini.</p>
+  <div class="project-media">
+    <img src="nama-file-foto.jpg" alt="Deskripsi foto">
+  </div>
+</div>Proyek Unggulan</h2><span class="rule"></span></div>
     <div class="project-card">
       <span class="project-tag">TUGAS AKHIR</span>
       <h3>Rancang Bangun Oil Mist Collector</h3>
